@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,3 +64,118 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+
+}
+
+header {
+	border: 2px solid grey;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+}
+
+#logo {
+	display: inline-block;
+	vertical-align: left;
+}
+
+.intro {
+	display: inline-block;
+	width: 90%;
+	margin: 5%;
+	border: 2px solid grey;
+}
+
+h1 {
+	display: inline-block;
+	margin: 20px 0;
+	font-size: 60px;
+	width: 30%;
+	border: 2px solid grey;
+  }
+
+.innovation {
+	display: inline-block;
+	margin: auto;
+	width: 43%;
+	border: 2px solid grey;
+}  
+
+.circleImage {
+	display: inline-block;
+	margin: auto;
+	width: 43%;
+	border: 2px solid grey;
+}  
+
+/* .borderLines {
+	border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
+	margin: 5% 0%;
+} */
+
+.topContent {
+	display: inline-block;
+	width: 90%;
+	margin: 5%;
+	border-top: 2px solid grey;
+  }
+
+.features {
+	width: 49%;
+	display: inline-block;
+	margin-top: 5%;
+}
+
+.about {
+	width: 49%;
+	display: inline-block;
+}
+
+.home {
+	display: inline-block;
+	border: 2px solid grey;
+  }
+
+.bottomContent {
+	display: inline-block;
+	width: 90%;
+	margin: 5%;
+	border-bottom: 2px solid grey;
+  }
+
+.services {
+	width: 33%;
+	display: inline-block;
+	margin-bottom: 5%;
+}
+
+.product {
+  width: 33%;
+  display: inline-block;
+}
+
+.vision {
+  width: 33%;
+  display: inline-block;
+}
+
+.middle-img {
+	display: block;
+	/* margin-left: auto;
+	margin-right: auto; */
+	margin: auto;
+	width: 90%;
+  }
+
+.contact {
+	margin-left: 5%;
+  }
+
+footer {
+	  text-align: center;
+	  margin-top: 5%;
+	  margin-bottom: 10%;
+  }
