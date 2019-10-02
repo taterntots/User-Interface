@@ -65,20 +65,79 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-* {
-
+header {
+	display: inline-block;
+	/* border: 2px solid grey; */
+	width: 90%;
+	margin: 0% 5%;
+	text-align: center;
 }
 
-header {
-	border: 2px solid grey;
+nav a {
+	text-decoration: none;
+	color: lightgrey;
+	padding-right: 30px;
+	line-height: 10px;
+	/* border: 2px solid red; */
+}
+
+.logo {
+	display: inline-block;
+	text-align: right;
+	/* border: 2px solid red; */
+}
+
+.intro {
+	margin: 0% 5%;
+	text-align: center;
+	/* border: 2px solid blue; */
+	
+}
+
+.innovation {
+	display: inline-block;
+	font-size: 80px;
+	text-align: center;
+	width: 49%;
+	/* border: 2px solid green; */
+	margin: 10px;
+	padding-bottom: 50px;
+}
+
+#getStarted {
+	position: absolute;
+	border: 2px solid lightgrey;
+	width: 130px;
+	top: 50%;
+	font-size: 20px;
+	left: 200px;
+	top: 450px;
+	padding: 4px 0px;
+}
+
+.circleImage {
+	display: inline-block;
+	/* border: 2px solid yellow; */
+}
+
+
+
+/* header {
+	display: inline-block;
 	width: 100%;
 	text-align: center;
-	display: inline-block;
+	border: 2px solid grey;
+}
+
+nav {
+	border: 2px solid grey;
+	width: 50%;
+	color: lightgrey;
 }
 
 #logo {
 	display: inline-block;
-	vertical-align: left;
+	border: 2px solid grey;
 }
 
 .intro {
@@ -93,22 +152,32 @@ h1 {
 	margin: 20px 0;
 	font-size: 60px;
 	width: 30%;
-	border: 2px solid grey;
+	text-align: center;
+  }
+
+  #getStarted {
+	  border: 1px solid grey;
+	  width: 30%;
+	  padding: 1%;
+	  text-align: center;
   }
 
 .innovation {
 	display: inline-block;
 	margin: auto;
+	text-align: center;
 	width: 43%;
 	border: 2px solid grey;
 }  
 
 .circleImage {
 	display: inline-block;
-	margin: auto;
-	width: 43%;
-	border: 2px solid grey;
-}  
+	
+	width: 42%;
+	margin-left: 14%;
+	border: 2px solid blue;
+	
+}   */
 
 /* .borderLines {
 	border-top: 2px solid grey;
@@ -124,8 +193,8 @@ h1 {
   }
 
 .features {
-	width: 49%;
 	display: inline-block;
+	width: 49%;
 	margin-top: 5%;
 }
 
@@ -149,11 +218,13 @@ h1 {
 .services {
 	width: 33%;
 	display: inline-block;
+	padding-right: 8px;
 	margin-bottom: 5%;
 }
 
 .product {
   width: 33%;
+  padding-right: 8px;
   display: inline-block;
 }
 
